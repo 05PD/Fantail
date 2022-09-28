@@ -1,0 +1,28 @@
+/**
+ * @brief Contains:
+ * 1.Envelop structure
+ * 2.Complete BMD structure
+ * 3.Declarations of XML(BMD) handling functions
+ * 
+ */
+
+#include <stdio.h>
+#ifndef bmd_h
+#define bmd_h
+typedef struct bmdMessage_ {
+   char *message_iD;
+   char *message_type;
+   char *sender_id;
+   char *destination_id;
+}bmd_envelop;
+
+typedef struct bmd_ {
+  bmd_envelop *envelop_data;
+  char * payload;
+}bmd;
+
+bmd_envelop*  extract_envelop(char * filepath);
+bmd* parse_bmd_xml(char *bmd_xml_file);
+char * extract_payload(char * filepath);
+int is_bmd_valid(bmd *bmd_file);
+#endif
