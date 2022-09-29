@@ -1,0 +1,10 @@
+>  Date:28/09/2022
+  1. Created 2 BMD file with one having IFSC code anf the other
+     the currency symbol.
+  2. created BMD handler. 
+  3. created BMD parser code but not completed.
+
+>  Date:29/09/2022
+   1. created another esb code for processing the BMD file received 
+      in ESB. 
+   2. Trying for the database part and other section of the ESB app.        
