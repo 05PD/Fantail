@@ -1,4 +1,22 @@
->  Date:28/09/2022
+>   Date:1/10/2022
+   1. understanding the database section of esb-app
+   2. Also looking at the socket section
+      from your gist
+
+    Date:2/09/2022
+    1. Coded some part of Database section
+    2. Continued to understand the code of the Db section
+    
+    Date:3/09/2022
+    1. Read the basic of c language for better undestanding
+    2. Continued to work on our Dd and socket
+    
+    Date:4/09/2022
+    1. looked at the gist for client-server based socket to be
+       implemented for our esb-app
+
+
+    Date:28/09/2022
   1. Created 2 BMD file with one having IFSC code anf the other
      the currency symbol.
   2. created BMD handler. 
